@@ -39,3 +39,12 @@
 14F) true because we type case the number 2 to true  
 15) == checks equality with type conversion. === checks equality without type conversion.  
 16) *Check the js file  
+17) It returns the array `[2, 4, 6]`. We go through each value of the array that gets passed in, call `doSomething` on each value, and then we push each result to `newArr`. Since `doSomething` multiples the value we pass in by 2, `newArr` contains 2x each value in the array that was passed in.  
+18) *Check the js file  
+19) 
+```
+1
+4
+3
+2
+```  
