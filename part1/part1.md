@@ -38,3 +38,4 @@
 14E) false because the numeric value of true is 1, which isn't equal to 2  
 14F) true because we type case the number 2 to true  
 15) == checks equality with type conversion. === checks equality without type conversion.  
+16) *Check the js file  
