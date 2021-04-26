@@ -18,6 +18,8 @@
 9) An error is thrown, because `i` was declared within the `for` block as a `let` and we tried to access it outside of that `for` block.
 10) `3` gets printed. Since `length` was declared as a `const` within the `discountedPrices` function/block, we can access its value anywhere within the block.
 11) It returns the array `[50, 100, 150]`. Since `discounted` was declared within the `discountPrices` function/block as a `const`, we can access its value anywhere within the function/block. We multiply each value in `prices` by 0.5, and then push that value to discounted (i.e. when we return discounted, we return the array `prices`, where each value is halved).
-12a) student['name']
-12b) student['Grad Year']
-
+12A) student['name'];
+12B) student['Grad Year'];
+12C) student.greeting();
+12D) student["Favorite Teacher"]["name"];
+12E) student["courseLoad"][0];
